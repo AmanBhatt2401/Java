@@ -1,0 +1,10 @@
+              //Delete Method is used to delete character of a string\
+class Delete
+{
+public static void mian(String args[])
+{
+StringBuffer sb=new StringBuffer("Hello");
+sb.delete(1,3);  //character from index 1 to 3 will be delete
+System.out.println(sb);
+}
+}

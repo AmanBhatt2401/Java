@@ -1,0 +1,12 @@
+                                                 //program to append a String
+
+
+class Append
+{
+public static void main(String args[])
+{
+StringBuffer sb=new StringBuffer("Hellooo");    //object created for StringBuffer
+sb.append("Byee");                              //Bye will append after Hellooo
+System.out.println(sb);
+}
+}

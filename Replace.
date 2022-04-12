@@ -1,0 +1,10 @@
+                           //Replace is used to replace a String or characters of a string 
+class Replace
+{
+public static void main(String args[])
+{
+StringBuffer sb=new StringBuffer("Hellooo");
+sb.replace(1,3,"Java");    //between the index 1&3 all the character will be replaced by java String
+System.out.println(sb);
+}
+}

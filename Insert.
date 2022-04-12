@@ -1,0 +1,10 @@
+                         //Insert method to insert a string in pervious string
+class Ab
+{
+public static void  main(String args[])
+{
+StringBuffer sb=new StringBuffer("Hellooo");
+sb.insert(1,"Java");     //index no=1 where the insert will take place and String to be inserted 
+System.out.println(sb);
+}
+}

@@ -1,0 +1,10 @@
+                      //Reverse Method is used to reverse a string
+class Reverse 
+{
+public static void main(String args[])
+{
+StringBuffer sb=new StringBuffer("Hellooo");
+sb.reverse();        //string will get reversed
+System.out.println(sb);
+}
+}
